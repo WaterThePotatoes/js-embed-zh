@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文档</title>
+</head>
+
+<body>
+    <p>您是否有配偶？</p>
+    <input type="radio" name="hasSpouse" id="yes-spouse" value="has-spouse"> 有配偶或共同生活伴侣。<br>
+    <input type="radio" name="hasSpouse" id="no-spouse" value="has-no-spouse"> 没有配偶或共同生活伴侣。
+    <br><br><br>
+    第A部分：核心/人力资本因素 <br><br><br>
+    年龄：<input type="text" name="age" id="age">
+    <br>
+    <br>
+    <p>请输入您的教育水平。</p>
+    <input type="radio" name="education" id="under_ss" value="under_ss"> 高中以下学历 <br>
+    <input type="radio" name="education" id="ss" value="ss"> 高中文凭 <br>
+    <input type="radio" name="education" id="one_year" value="one_year"> 一年制学位、文凭或证书 <br>
+    <input type="radio" name="education" id="two_year" value="two_year"> 两年制教育机构课程 <br>
+    <input type="radio" name="education" id="three_year" value="three_year"> 学士学位或三年或更长时间的教育机构课程 <br>
+    <input type="radio" name="education" id="extra" value="extra"> 两个或更多证书、文凭或学位；其中一个必须是三年或更长时间的课程 <br>
+    <input type="radio" name="education" id="masters" value="masters"> 硕士学位，或需要在持牌专业中执业的专业学位 <br>
+    <input type="radio" name="education" id="phd" value="phd"> 博士学位（博士） <br>
+
+    <br><br>
+
+    加拿大语言基准（CLB）级别 <br><br>
+    <input type="radio" name="_CLBtype" id="ielts" value="ielts"> IELTS 分数
+    <input type="radio" name="_CLBtype" id="celpip" value="celpip"> CELPIP 分数
+    <input type="radio" name="_CLBtype" id="tef" value="tef"> TEF 分数
+    <input type="radio" name="_CLBtype" id="tcf" value="tcf"> TCF 分数
+    <input type="radio" name="_CLBtype" id="CLB" value="CLB"> CLB 分数 <br>
+    阅读： <input type="text" name="CLBr" id="CLBr"><br>
+    写作： <input type="text" name="CLBw" id="CLBw"><br>
+    听力： <input type="text" name="CLBl" id="CLBl"><br>
+    口语： <input type="text" name="CLBs" id="CLBs"><br>
+
+    <br><br>
+
+    加拿大语言基准（CLB）级别（第二语言，如适用）<br><br>
+    <input type="radio" name="_CLBtype2" id="ielts2" value="ielts2"> IELTS 分数
+    <input type="radio" name="_CLBtype2" id="celpip2" value="celpip2"> CELPIP 分数
+    <input type="radio" name="_CLBtype2" id="tef2" value="tef2"> TEF 分数
+    <input type="radio" name="_CLBtype2" id="tcf2" value="tcf2"> TCF 分数
+    <input type="radio" name="_CLBtype2" id="CLB2" value="CLB2"> CLB 分数 <br>
+    阅读： <input type="text" name="CLBr2" id="CLBr2"><br>
+    写作： <input type="text" name="CLBw2" id="CLBw2"><br>
+    听力： <input type="text" name="CLBl2" id="CLBl2"><br>
+    口语： <input type="text" name="CLBs2" id="CLBs2"><br>
+
+    <br><br>
+
+    加拿大工作经验年数： &nbsp<input type="text" name="workCanada" id="workCanada"> <br>
+    外国工作经验年数： &nbsp&nbsp&nbsp&nbsp<input type="text" name="workForeign" id="workForeign"> <br><br><br>
+
+    您是否持有资格证书？<br>
+    <input type="radio" name="CoQ" value="yes"> 是 <br>
+    <input type="radio" name="CoQ" value="no"> 否
+
+    <br><br>
+
+    <div id="spouseFactors">
+        <br><br>
+        第B部分：配偶或同居伴侣因素 <br><br><br>
+
+        <p>请输入您配偶的教育水平。</p>
+        <input type="radio" name="spouse_education" id="spouse_under_ss" value="under_ss"> 高中以下学历 <br>
+        <input type="radio" name="spouse_education" id="spouse_ss" value="ss"> 高中文凭 <br>
+        <input type="radio" name="spouse_education" id="spouse_one_year" value="one_year"> 一年制学位、文凭或证书 <br>
+        <input type="radio" name="spouse_education" id="spouse_two_year" value="two_year"> 两年制教育机构课程 <br>
+        <input type="radio" name="spouse_education" id="spouse_three_year" value="three_year"> 学士学位或三年或更长时间的教育机构课程 <br>
+        <input type="radio" name="spouse_education" id="spouse_extra" value="extra"> 两个或更多证书、文凭或学位；其中一个必须是三年或更长时间的课程 <br>
+        <input type="radio" name="spouse_education" id="spouse_masters" value="masters"> 硕士学位，或需要在持牌专业中执业的专业学位 <br>
+        <input type="radio" name="spouse_education" id="spouse_phd" value="phd"> 博士学位（博士） <br><br><br>
+
+        请输入您配偶的加拿大语言基准（CLB）级别 <br><br>
+        <input type="radio" name="spouse_CLBtype" id="spouse_ielts" value="ielts"> IELTS 分数
+        <input type="radio" name="spouse_CLBtype" id="spouse_celpip" value="celpip"> CELPIP 分数
+        <input type="radio" name="spouse_CLBtype" id="spouse_tef" value="tef"> TEF 分数
+        <input type="radio" name="spouse_CLBtype" id="spouse_tcf" value="tcf"> TCF 分数
+        <input type="radio" name="spouse_CLBtype" id="spouse_CLB" value="CLB"> CLB 分数 <br>
+        阅读： <input type="text" name="spouse_CLBr" id="spouse_CLBr"><br>
+        写作： <input type="text" name="spouse_CLBw" id="spouse_CLBw"><br>
+        听力： <input type="text" name="spouse_CLBl" id="spouse_CLBl"><br>
+        口语： <input type="text" name="spouse_CLBs" id="spouse_CLBs"><br>
+
+        <br><br>
+        您配偶的加拿大工作经验年数： <input type="text" name="spouse_workCanada" id="spouse_workCanada"> <br><br>
+
+
+    </div>
+
+    <br><br>
+
+    <div>
+        第C部分：技能可转移因素 <br><br><br>
+
+        此部分是根据您提供的信息（教育和工作经验）计算的。 <br> 为了获得准确的结果，请填写部分A的全部内容。 <br><br>
+    </div>
+
+    <br><br>
+
+    <div>
+        第D部分：额外分数 <br><br><br>
+
+        <input type="checkbox" id="additionalPointsOne" value="15">在加拿大居住的兄弟或姐妹是加拿大公民或永久居民<br>
+        <input type="checkbox" id="additionalPointsTwo" value="25">在所有四项法语语言技能上获得NCLC 7或更高分，并在英语上获得CLB 4或更低分（或未参加英语考试）<br>
+        <input type="checkbox" id="additionalPointsThree" value="50">在所有四项法语语言技能上获得NCLC 7或更高分，并在所有四项英语技能上获得CLB 5或更高分<br>
+        <input type="checkbox" id="additionalPointsFour" value="15">在加拿大获得一到两年的高等教育证书<br>
+        <input type="checkbox" id="additionalPointsFive" value="30">在加拿大获得三年或更长时间的高等教育证书<br>
+        <input type="checkbox" id="additionalPointsSix" value="200">安排就业 - NOC TEER 0 Major group 00<br>
+        <input type="checkbox" id="additionalPointsSeven" value="50">安排就业 - NOC TEER 1、2或3，或除Major group 00之外的任何TEER 0<br>
+        <input type="checkbox" id="additionalPointsEight" value="600">省或地区提名<br>
+
+    </div>
+
+    <br><br>
+
+    如果您的分数没有更新，请点击以下按钮手动更新。 <br><br>
+    <button type="button" id="update_button">更新</button> <br><br><br><br>
+
+    <div id="result">
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
